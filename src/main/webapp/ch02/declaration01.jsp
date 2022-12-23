@@ -3,6 +3,9 @@
 <title>Scripting Tag</title>
 </head>
 <body>
-	<h1>hheelllloo</h1>
+	<%! int data = 50; %>
+	<%
+		out.println("Value of the variable is : " + data);
+	%>
 </body>
 </html>
